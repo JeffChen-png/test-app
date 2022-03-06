@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-  res.send('Bpium in progress...')
+  res.send('Bpium deployment in progress... Wait.')
 })
 
 app.listen(port, () => {
